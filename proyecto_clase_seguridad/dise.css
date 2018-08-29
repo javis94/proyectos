@@ -1,0 +1,77 @@
+.enc{
+	text-align: center;
+	margin: auto;
+	background: #BBDEFB;
+	text-anchor: 8px;
+	font-size: 25px;
+	font-family: initial;
+	border-spacing:10px;
+	border-style: solid;
+	outline-style: dotted;
+}
+
+.caja {
+text-align: center;
+	margin: auto;
+	background: #abcdef;
+	text-anchor: 15px;
+	font-size: 10px;
+	background-size: auto;;
+	border-spacing: 5px;
+	bottom:inherit;
+	text-underline-position:unset;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	table-layout: fixed;
+	border-style: solid;
+	border-color: #abcdef;
+	border-spacing: all;
+	border-bottom: groove;
+	border-collapse: separate;
+	border-left-width: medium;
+	border-style: solid;  
+}
+
+.caja input{
+	text-align: center;
+	margin: auto;
+	background: white;
+	text-anchor: 15px;
+	font-size: 10px;
+	background-size: auto;;
+	border-spacing: 5px;
+	bottom:inherit;
+	text-underline-position:unset;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	table-layout: fixed;
+	border-style: solid;
+	border-color: #FFCCBC;
+	border-spacing: all;
+	border-bottom: groove;
+	border-collapse: separate;
+	border-left-width: medium;  
+}
+
+
+
+.afi {
+	text-align: center;
+	margin: auto;
+	background: #abcdef;
+	border-style: solid;
+
+}
+
+.tabla {
+	background: #009688;
+}
+.tabla table{
+	margin:auto;
+background: #80CBC4;
+border-style: solid;
+border-collapse: collapse;
+font-size: 15px;
+table-layout: fixed;
+text-align: center;
+}
