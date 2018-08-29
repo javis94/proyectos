@@ -1,0 +1,593 @@
+@media only screen and (min-width: 1px) {
+		.logo {
+	width: 50%;
+text-align: center;
+margin: auto;
+background-image:url("/especialidad/imagenes/pueblo.png");
+}
+
+.img1 {
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+	background: #008975;
+	background:#68efad;	
+}
+.img2 {
+ 
+	border-style: solid;
+	border-color: black;
+	background: #008975;
+	background:#68efad;
+	
+}
+.img3 {
+	border-style: solid;
+	border-color: black;
+	margin: auto;	
+	background: #008975;
+	background:#68efad;
+}
+.notic {
+text-align: center;
+margin:auto;
+}
+.panel panel-info {
+	background: #008975;
+	color: black;
+	float: left;
+	width: 100%;
+	border-style: solid ;
+	margin: auto;
+	border-color: black;
+}
+.face {
+	width: 100%;
+	text-align: center;
+	margin: auto;	
+
+}
+.catalogo {
+	background:#E3F2FD;	
+	float: left;
+	text-align:center;
+	width:220px;
+	height: 500px;
+	margin: auto;
+	border-style: solid;
+	border-color: red;
+}
+.cat {
+	text-align: center;
+	font-size: 70px;
+	color:red;
+
+}	
+.chica {
+	text-align: center;
+	font-size: 70px;
+	color: red;
+}
+.cond {
+	font-size: 30px;
+	color: red;
+}
+.cinco {
+	font-size: 30px;
+	color: red;
+}
+.regi {
+	text-align: center;
+	background: #008975;
+	color:white;
+	text-align: center;
+	font-size: 25px;
+}
+.reg input  {
+	text-align: center;
+	width: 500px;
+	background: #008975;
+	background:#68efad;
+	margin: .5em;
+	padding: .5em;
+}
+.nombre label {
+  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.paterno label {
+  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.materno label {
+margin: .4em 0;
+  width: 50%;
+  float: left;
+	}
+	.correo label {
+margin: .4em 0;
+  width: 50%;
+  float: left;
+  float:right;
+	}
+.rfc label {
+ margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.login label {
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.password label {
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.direccion label{
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.cap label {
+  margin: .5em 0;
+  width: 100%;
+  float: right;
+}
+.en {
+	text-align: center;
+	float: left;
+}
+.acerca {
+	text-align: center;
+}
+.mapa {
+	text-align:center;
+
+}
+.des {
+	text-align: center;
+	background: #008975;
+	background:#68efad;
+	color: black ;
+}
+.con {
+	text-align: center;
+}
+.navbar-header {
+	text-align: center;
+	background:#E1BEE7;
+	text-align: center;
+}
+.navbar {
+	text-align: center;
+	background:#E1BEE7;	
+}
+
+.logi {
+	width:50%;
+	margin: auto;
+	background:#B2DFDB;
+	font-size:30px; 
+	text-align: center;
+}
+.log {
+	width: 50%;
+	margin: auto;
+	background:#B2DFDB;
+	text-align: center;
+}
+.cata {
+	background:#E3F2FD;	
+	float: left;
+	text-align:center;
+	width:300px;
+	height: 620px;
+	margin: auto;
+	border-style: solid;
+	border-color: red;
+}
+
+}
+@media only screen and (min-width: 980px) {
+		.logo {
+	width: 100%;
+text-align: center;
+margin: auto;
+background-image:url("/especialidad/imagenes/pueblo.png");
+}
+
+.img1 {
+	width: 33%;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+	background: #008975;
+	background:#68efad;	
+}
+.img2 {
+	width: 33%;
+	float:right; 
+	border-style: solid;
+	border-color: black;
+	background: #008975;
+	background:#68efad;
+	
+}
+.img3 {
+	width: 33%;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	margin: auto;	
+	background: #008975;
+	background:#68efad;
+}
+.notic {
+text-align: center;
+margin:auto;
+}
+.panel panel-info {
+	background: #008975;
+	color: black;
+	float: left;
+	width: 100%;
+	border-style: solid ;
+	margin: auto;
+	border-color: black;
+}
+.face {
+	width: 100%;
+	text-align: center;
+	margin: auto;	
+
+}
+.catalogo {
+	background:#E3F2FD;	
+	float: left;
+	text-align:center;
+	width:220px;
+	height: 500px;
+	margin: auto;
+	border-style: solid;
+	border-color: red;
+}
+.cat {
+	text-align: center;
+	font-size: 70px;
+	color:red;
+
+}	
+.chica {
+	text-align: center;
+	font-size: 70px;
+	color: red;
+}
+.cond {
+	font-size: 30px;
+	color: red;
+}
+.cinco {
+	font-size: 30px;
+	color: red;
+}
+.regi {
+	text-align: center;
+	background: #008975;
+	color:white;
+	text-align: center;
+	font-size: 25px;
+}
+.reg input  {
+	text-align: center;
+	width: 500px;
+	background: #008975;
+	background:#68efad;
+	margin: .5em;
+	padding: .5em;
+}
+.nombre label {
+  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.paterno label {
+  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.materno label {
+margin: .4em 0;
+  width: 50%;
+  float: left;
+	}
+	.correo label {
+margin: .4em 0;
+  width: 50%;
+  float: left;
+  float:right;
+	}
+.rfc label {
+ margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.login label {
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.password label {
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.direccion label{
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.cap label {
+  margin: .5em 0;
+  width: 100%;
+  float: right;
+}
+.en {
+	text-align: center;
+	float: left;
+}
+.acerca {
+	text-align: center;
+}
+.mapa {
+	text-align:center;
+
+}
+.des {
+	text-align: center;
+	background: #008975;
+	background:#68efad;
+	color: black ;
+}
+.con {
+	text-align: center;
+}
+.navbar-header {
+	text-align: center;
+	background:#E1BEE7;
+	text-align: center;
+}
+.navbar {
+	text-align: center;
+	background:#E1BEE7;	
+}
+
+.logi {
+	width:50%;
+	margin: auto;
+	background:#B2DFDB;
+	font-size:30px; 
+	text-align: center;
+}
+.log {
+	width: 50%;
+	margin: auto;
+	background:#B2DFDB;
+	text-align: center;
+}
+.cata {
+	background:#E3F2FD;	
+	float: left;
+	text-align:center;
+	width:300px;
+	height: 620px;
+	margin: auto;
+	border-style: solid;
+	border-color: red;
+}
+
+}	
+
+
+	@media only screen and (min-width: 1200px) {
+		.logo {
+	width: 100%;
+text-align: center;
+margin: auto;
+background-image:url("/especialidad/imagenes/pueblo.png");
+}
+
+.img1 {
+	width: 33%;
+	float: left;
+	border-style: solid;
+	border-color: black;
+	margin: auto;
+	background: #008975;
+	background:#68efad;	
+}
+.img2 {
+	width: 33%;
+	float:right; 
+	border-style: solid;
+	border-color: black;
+	background: #008975;
+	background:#68efad;
+	
+}
+.img3 {
+	width: 33%;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	margin: auto;	
+	background: #008975;
+	background:#68efad;
+}
+.notic {
+text-align: center;
+margin:auto;
+}
+.panel panel-info {
+	background: #008975;
+	color: black;
+	float: left;
+	width: 100%;
+	border-style: solid ;
+	margin: auto;
+	border-color: black;
+}
+.face {
+	width: 100%;
+	text-align: center;
+	margin: auto;	
+
+}
+.catalogo {
+	background:#E3F2FD;	
+	float: left;
+	text-align:center;
+	width:220px;
+	height: 500px;
+	margin: auto;
+	border-style: solid;
+	border-color: red;
+}
+.cat {
+	text-align: center;
+	font-size: 70px;
+	color:red;
+
+}	
+.chica {
+	text-align: center;
+	font-size: 70px;
+	color: red;
+}
+.cond {
+	font-size: 30px;
+	color: red;
+}
+.cinco {
+	font-size: 30px;
+	color: red;
+}
+.regi {
+	text-align: center;
+	background: #008975;
+	color:white;
+	text-align: center;
+	font-size: 25px;
+}
+.reg input  {
+	text-align: center;
+	width: 500px;
+	background: #008975;
+	background:#68efad;
+	margin: .5em;
+	padding: .5em;
+}
+.nombre label {
+  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.paterno label {
+  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.materno label {
+margin: .4em 0;
+  width: 50%;
+  float: left;
+	}
+	.correo label {
+margin: .4em 0;
+  width: 50%;
+  float: left;
+  float:right;
+	}
+.rfc label {
+ margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.login label {
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.password label {
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.direccion label{
+	  margin: .4em 0;
+  width: 50%;
+  float: left;
+}
+.cap label {
+  margin: .5em 0;
+  width: 100%;
+  float: right;
+}
+.en {
+	text-align: center;
+	float: left;
+}
+.acerca {
+	text-align: center;
+}
+.mapa {
+	text-align:center;
+
+}
+.des {
+	text-align: center;
+	background: #008975;
+	background:#68efad;
+	color: black ;
+}
+.con {
+	text-align: center;
+}
+.navbar-header {
+	text-align: center;
+	background:#E1BEE7;
+	text-align: center;
+}
+.navbar {
+	text-align: center;
+	background:#E1BEE7;	
+}
+
+.logi {
+	width:50%;
+	margin: auto;
+	background:#B2DFDB;
+	font-size:30px; 
+	text-align: center;
+}
+.log {
+	width: 50%;
+	margin: auto;
+	background:#B2DFDB;
+	text-align: center;
+}
+.cata {
+	background:#E3F2FD;	
+	float: left;
+	text-align:center;
+	width:300px;
+	height: 620px;
+	margin: auto;
+	border-style: solid;
+	border-color: red;
+}
+}

@@ -1,0 +1,130 @@
+<?php
+session_start();
+?>
+ <!DOCTYPE html>
+    <!-- pagina realizada por: Francisco Javier Mendoza Rodriguez -->
+<html lang="es">
+        <head>
+            <meta charset="utf-8"/>
+            <title> Registro</title>
+            <link rel="stylesheet" type="text/css" href="/especialidad/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="/especialidad/css/dise.css" />
+            <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+            <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+              <link rel="stylesheet" type="text/css" href="/especialidad/css/dise.css" />
+            <script type="text/javascript" src="livevalidation_standalone.compressed.js"> </script>
+            <link rel="icon" type="image/png" href="/especialidad/imagenes/logojavier2.png" />
+            </head>
+            <body>
+            <h1>Examen Diagnostico</h1>
+            <div class="logo">
+       <img src="/especialidad/imagenes/logojavier2.png" alt="logo"> 
+       </div>
+            <nav class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="inicio.html">Inicio</a>
+      <a class="navbar-brand" href="carrito.php">Carrito</a>
+      <a class="navbar-brand" href="catalogo.php">Catalogo</a>
+      <a class="navbar-brand" href="acercade.html">Acerca De</a>
+      <a class="navbar-brand" href="login.html">Login</a>
+    </div>
+    </div>
+</nav>
+       <div class="regi">
+       	<h1> Registro </h1>
+       	<img src="/especialidad/imagenes/pichu.png">
+       	<img src="/especialidad/imagenes/michele.png">
+       	<img src="/especialidad/imagenes/eeveeweb.png">
+       </div>
+       <br />
+       <div class="todo">
+       <div class="reg">
+       <form id="formId" name="registro" method="post" action="registro.php" onsubmit="cifrar()">
+       <div class="nombre">
+       <label for="nombre">               
+                   Nombre: <br>
+                   <input name="nombre" title="nombre"id="f1"placeholder="Nombre" pattern="[a-zA-Z]*" required="" type="text" maxlength="20" size="20">
+                    <script type="text/javascript">
+                    var f1 = new livevalidation('f1'); add(Validate.presence, {failureMessage: "escribe por favor tu Nombre"});
+                    
+                    </script>
+                    </label>
+                    </div>
+                    <div class="paterno">
+                    <label for="paterno">
+              Paterno: <br>
+              <input name="paterno" title="paterno"placeholder="Apellido Paterno" pattern="[a-zA-Z]*" required="" type="text" size="20" maxlength="20" />
+                    <script type="text/javascript">
+                    var f2 = new livevalidation('f2'); add(Validate.presence, {failureMessage: "escribe por favor tu Apellido Paterno"});
+                    </script>
+                    </label>
+                    </div>
+                    <div class="materno">
+                    <label for="materno">
+                 Materno: <br>
+                 <input name="materno" title="materno" placeholder="Apellido Materno" pattern="[a-zA-Z]*" required="" type="text" maxlength="20" size="20" />
+                    <script type="text/javascript">
+                    var f3 = new livevalidation('f3'); add(Validate.presence, {failureMessage: "escribe por favor tu Apellido Materno"});
+                    </script>
+                    </label>
+                    </div>
+                    <div class="correo">
+                    <label for="correo">
+                Correo: <br> <input name="correo" placeholder="nombre@dominio.com" required="" type="email" >
+                    <script type="text/javascript">
+                    var f4 = new livevalidation('f4'); add(Validate.presence, {failureMessage: "escribe por favor tu email"});
+                    </script>
+                    </label>
+                    </div>
+                    <div class="rfc">
+                    <label for="rfc">
+                RFC: <br>
+                <input name="RFC" placeholder="Ingresar RFC" title="RFC" pattern="[a-zA-Z0-Za-Z9]*" required="" type="text" size="16" maxlength="16" minlength="16" >
+                    <script type="text/javascript">
+                    var f5 = new livevalidation('f5'); add(Validate.presence, {failureMessage: "escribe por favor tu RFC"});
+                    </script>
+                    </label>
+                    </div>
+                    <div class="login">
+                    <label for="login">
+                 Login: <br>
+                  <input name="login" title="login" placeholder="Ingresar Login" pattern="[a-zA9-Z9]*" required="" type="text" maxlength="20" size="20"  >
+                    <script type="text/javascript">
+                    var f6 = new livevalidation('f6'); add(Validate.presence, {failureMessage: "escribe por favor tu Login"});
+                    </script>
+                    </label>
+                    </div>
+                    <div class="password">
+                    <label for="password">
+                Password: <br> <input name="clave" title="clave" placeholder="Ingresar password" required="" type="password" minlength="6">
+                    <script type="text/javascript">
+                    var f7 = new livevalidation('f7'); add(Validate.presence, {failureMessage: "escribe por favor tu password"});
+                    </script>
+                    </label>
+                    </div>
+                    <div class="direccion">
+                    <label for="direccion">
+                Direccion:<br> <input name="direccion" title="Direccion" placeholder="Ingresar Direcccion" pattern="[a-zA9#-Z9#]*" required="" type="text">
+                    <script type="text/javascript">
+                    var f8 = new livevalidation('f8'); add(Validate.presence, {failureMessage: "escribe por favor tu Direccion"});
+                    </script>
+                    </label>
+                    </div>
+                    <br>
+                    <div class="cap"> 
+                    <br>
+                    <br>
+                    <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+                    <input type="text" name="captcha_code" size="10" maxlength="6" >
+                    <a href="#" onclick="document.getElementById('captcha').src='securimage/securimage_show.php?' + Math.random(); return false">[Different Image]</a> 
+                    <br>
+                    </div
+                    <div class="en">
+                    <input type="submit" value="ENVIAR" />
+                    <br>
+                    <input type="reset" value="LIMPIAR" />
+                    </div> 
+                </form>
+       </div>
+    </body>
+</html> 

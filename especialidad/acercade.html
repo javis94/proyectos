@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- Acerca De -->
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Acerca De</title>
+<!-- El Meta Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- El archivo CSS de Material Design -->
+<link rel="stylesheet" type="text/css" href="/especialidad/css/dise.css"/>
+<link rel="stylesheet" href="/especialidad/material.min.css">
+<!-- El archivo JS de Material Design -->
+<script src="/especialidad/material.min.js"></script>
+<!-- Un tipo de Fuente desde Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+<link rel="icon" type="image/png" href="/especialidad/imagenes/logojavier2.png" />
+</head>
+<body>
+<div class="logo">
+<span class="android-mobile-title mdl-layout-title">
+<img class="android-logo-image" src="/especialidad/imagenes/logojavier2.png">
+</span>
+<br>
+</div>	 
+<!-- Nuestro Logo -->
+<div class="acerca">
+<a href="/especialidad/Inicio.html">
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+Inicio
+</button>
+</a>
+<a href="/especialidad/registro.html">
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+Registro
+</button>
+</a>
+<a href="/especialidad/login.html">
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+login
+</button>
+</a>
+<a href="/especialidad/catalogo.php">
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+catalogo
+</button>
+</a>
+</div>
+<br>
+<div class="des">
+<h1>Acerca De </h1>
+<br>
+<h4>Esta es una pagina sobre venta de articulos e informacion pokemon <h4>
+<p> <h4>donde podremos encontrar articulos como lo son camisetas,camisas, </h4> </p>
+<p> <h4> mochilas,relojes, entre otras muchas cosas.</h4> </p>
+<br>
+<p> <h4> Ademas de eso podremos encontrar noticias sobre los juegos y en general</h4> </p>
+<p> <h4> de todo lo relacionado con la franquisia de pokemon </h4> </p> 
+</div	>
+<br>
+<div class="mapa">
+<button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Mapa De Google</button>
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<br>
+<script>
+(function() {
+  'use strict';
+  var snackbarContainer = document.querySelector('#demo-snackbar-example');
+  var showSnackbarButton = document.querySelector('#demo-show-snackbar');
+  var handler = function(event) {
+    showSnackbarButton.style.backgroundColor = '';
+  };
+  showSnackbarButton.addEventListener('click', function() {
+    'use strict';
+    showSnackbarButton.style.backgroundColor = '#' +
+        Math.floor(Math.random() * 0xFFFFFF).toString(16);
+    var data = {
+      message: 'Button color changed.',
+      timeout: 2000,
+      actionHandler: handler,
+      actionText: 'Undo'
+    };
+    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+  });
+}());
+</script>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15020.769593870651!2d-101.17872509999998!3d19.746978650000003!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1493171291247" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<br>
+<br>
+<hr>
+<div class="con">
+<!-- Contact Chip -->
+<span class="mdl-chip mdl-chip--contact">
+    <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">A</span>
+    <span class="mdl-chip__text">Contactanos</span>
+</span>
+</div>
+<br>
+<br>
+<div class="face">
+       <a href="https://www.facebook.com/?stype=lo&jlou=AfdTbqgDmrxLW-s_SNb0jwjgIu6P7NeUOpepTv6YxO42roEpgVl2W0le2MTXn4Q8OOOu37MH_RC08LDbVW6Hyyd__2K6KDrIEL98MddCi4YQjg&smuh=16443&lh=Ac8iREZbRCg9uM88"> 
+       <img src="/especialidad/imagenes/facebook.png" width="120" height="100" alt="facebook"> </a>
+       <a href="https://www.instagram.com/"> 
+       <img src="/especialidad/imagenes/instagram.png" width="120" height="100" alt="instagram"> </a>
+       <img src="/especialidad/imagenes/wat.png" width="120" height="100"  alt="wathsap">
+       <h4> Tel: 44-31-37-42-28 <h4>
+       </div>
+
+</body>
+</html>

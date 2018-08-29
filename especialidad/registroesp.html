@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <!-- pagina realizada por: Francisco Javier Mendoza Rodriguez -->
+<html lang="es">
+        <head>
+            <meta charset="utf-8"/>
+            <title> Registro</title>
+              <link rel="stylesheet" type="text/css" href="registroesp.css" />
+            <script type="text/javascript" src="livevalidation_standalone.compressed.js"> </script>
+            </head>
+            <body>
+                <div id="todo">
+                <h1>Registro</h1>
+                    <br />
+                        <div id="tab">
+                <form id="formId" name="registro" method="post" action="registroesp.php" onsubmit="cifrar()">
+                    
+                    NOMBRE:<input name="nombre" title="nombre"id="f1"placeholder="nombres" pattern="[a-zA-Z]*" required="" type="text">
+                    <br />
+                    <script type="text/javascript">
+                    var f1 = new livevalidation('f1'); add(Validate.presence, {failureMessage: "escribe por favor tu Nombre"});
+                    </script>
+                PATERNO: <input name="paterno" title="paterno"placeholder="Apellido Paterno" pattern="[a-zA-Z]*" required="" type="text" size="20" maxlength="50" />
+                <br />
+                    <script type="text/javascript">
+                    var f2 = new livevalidation('f2'); add(Validate.presence, {failureMessage: "escribe por favor tu Apellido Paterno"});
+                    </script>
+                MATERNO: <input name="materno" title="materno" placeholder="Apellido Materno" pattern="[a-zA-Z]*" required="" type="text" />
+                <br />
+                    <script type="text/javascript">
+                    var f3 = new livevalidation('f3'); add(Validate.presence, {failureMessage: "escribe por favor tu Apellido Materno"});
+                    </script>
+                CORREO: <input name="correo" placeholder="nombre@dominio.com" required="" type="email" >
+                <br />
+                    <script type="text/javascript">
+                    var f4 = new livevalidation('f4'); add(Validate.presence, {failureMessage: "escribe por favor tu email"});
+                    </script>
+                RFC: <input name="RFC" placeholder="Ingresar RFC" title="RFC" pattern="[a-zA-Z0-Za-Z9]*" required="" type="text" size="15" maxlength="15" minlength="15" >
+                <br />
+                    <script type="text/javascript">
+                    var f5 = new livevalidation('f5'); add(Validate.presence, {failureMessage: "escribe por favor tu RFC"});
+                    </script>
+                lOGIN: <input name="login" title="login" placeholder="Ingresar Login" pattern="[a-zA9-Z9]*" required="" type="text"  >
+                 <br />
+                    <script type="text/javascript">
+                    var f6 = new livevalidation('f6'); add(Validate.presence, {failureMessage: "escribe por favor tu Login"});
+                    </script>
+                PASWWORD: <input name="clave" title="clave" placeholder="Ingresar password" required="" type="password" >
+                <br />
+                    <script type="text/javascript">
+                    var f7 = new livevalidation('f7'); add(Validate.presence, {failureMessage: "escribe por favor tu password"});
+                    </script>
+                DIRECCION: <input name="direccion" title="Direccion" placeholder="Ingresar Direcccion" pattern="[a-zA9#-Z9#]*" required="" type="text"   >
+                 <br />
+                    <script type="text/javascript">
+                    var f8 = new livevalidation('f8'); add(Validate.presence, {failureMessage: "escribe por favor tu Direccion"});
+                    </script>
+                <input type="submit" value="ENVIAR" />
+                    <input type="reset" value="LIMPIAR" />
+                    <br />
+                    <img id="captcha" src="securimage/securimage_show.php" alt="CAPTCHA Image" />
+                    <input type="text" name="captcha_code" size="10" maxlength="6" >
+                    <a href="#" onclick="document.getElementById('captcha').src='securimage/securimage_show.php?' + Math.random(); return false">[Different Image]</a>
+                    
+                </form>
+                    </div>
+                </div>
+    </body>
+</html> 

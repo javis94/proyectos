@@ -1,0 +1,35 @@
+#todo {
+    width: 100%;
+    background:#5c6bc0 ;
+    color:black;
+    font-size: 15px;
+    font-family: monospace;
+    float:center;
+    text-align:center;
+}
+#tab {
+    width: 100%;;
+    background:#c5cae9;
+    color:black;
+    font-size: 18px;
+    font-family: monospace;
+    text-align:center;
+    margin:auto;
+}
+#img {
+    width: 100%;;
+    background:indianred;
+    color:black;
+    font-size: 18px;
+    font-family: monospace;
+    margin:auto;
+    
+}
+#logo {
+     width: 100%;
+    background:#04B4AE;
+    color:black;
+    font-size: 18px;
+    font-family: monospace;
+    margin:auto;
+}
